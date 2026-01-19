@@ -1,0 +1,1 @@
+This is a Basic project where the job taking the data from s3 and converting into a df and storing into AWS RDS MYSQL. if any connectivity issues in RDS then it will store in fallback s3 location and start the Crawler job to obtain that file to create a table
